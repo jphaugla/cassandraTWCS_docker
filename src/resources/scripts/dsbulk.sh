@@ -1,0 +1,1 @@
+dsbulk-1.3.3/bin/dsbulk load -f src/resources/scripts/MyConfFile.conf --driver.auth.provider DsePlainTextAuthProvider -u  cassandra -p cassandra -url src/resources/data/transactionsTTL.csv -delim '~' -k tcfods -t transaction -h jphmac -header true
